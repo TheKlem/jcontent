@@ -45,13 +45,13 @@
         "unknown": "Statut de publication indisponible"
       },
       "contentNotFound": "Oups, nous ne trouvons pas ce que vous cherchez. La ressource n'existe pas, ou elle a récemment été supprimée, déplacée ou modifiée.",
-      "downloadAsZip": "Télécharger comme Zip",
+      "downloadAsZip": "Télécharger au format Zip",
       "fileUpload": {
         "nothingToDisplay": "Rien à afficher",
         "nothingToDisplay2": "Les éléments non sélectionables n'apparaissent pas dans cette vue",
         "locked": "Ce dossier vide est verrouillé",
         "selectMessage": "Sélectionner des fichiers depuis mon ordinateur",
-        "uploadingActionMessage": "Il y a des erreurs qui nécessitent votre attention.",
+        "uploadingActionMessage": "Des erreurs nécessitent votre attention.",
         "or": "ou",
         "dropMessage": "Déposez les fichiers ici pour les télécharger ou utilisez le bouton \"Importer des fichiers\"",
         "queued": "Mis en file d'attente",
@@ -105,9 +105,9 @@
         "missingFolder" : "Répertoire non trouvé"
       },
       "title": {
-        "media": "Média",
+        "media": "Médias",
         "pages": "Pages",
-        "content-folders": "Dossier de contenu",
+        "content-folders": "Dossiers de contenu",
         "apps": "Extensions",
         "search": "Recherche",
         "sql2Search": "Recherche",
@@ -135,9 +135,9 @@
         "basic": "Recherche simple",
         "search": "Chercher",
         "type": "Type",
-        "anyContent": "Tout contenu",
+        "anyContent": "Tous les types de contenus",
         "searchKeyword": "Recherche par mot-clé",
-        "searchLocation": "Lieu de recherche",
+        "searchLocation": "Périmètre de recherche",
         "searchInWebsite": "dans le site \"{{siteName}}\"",
         "searchInCurrentLocation": "dans l'emplacement actuel \"{{nodeName}}\"",
         "searchEverywhere": "Rechercher sur tout {{site}}",
@@ -158,7 +158,7 @@
       "noResults": "Aucun résultat",
       "noResultsText": "Aucun résultat pour votre recherche \"{{text}}\"",
       "create": {
-        "contentFolder": "Nouveau répertoire de contenu",
+        "contentFolder": "Nouveau dossier de contenu",
         "folder": "Nouveau dossier",
         "create": "Créer",
         "contentOfType": "Nouveau : {{typeName}}",
@@ -193,9 +193,9 @@
       "navigation": {
         "savedSearches": "Recherches sauvegardées",
         "workflow": "Workflow",
-        "media": "Média",
+        "media": "Médias",
         "pages": "Pages",
-        "contentFolders": "Dossier de contenu",
+        "contentFolders": "Dossiers de contenu",
         "forms": "Formulaires",
         "apps": {
           "title": "Extensions",
@@ -207,7 +207,7 @@
             "title": "Langues"
           },
           "roles": {
-            "title": "Rôles de site"
+            "title": "Rôles du site"
           },
           "groups": {
             "title": "Groupes"
@@ -224,7 +224,7 @@
       "contextMenu": {
         "lockActions": {
           "unlock": "Déverrouiller",
-          "clearAllLocks": "Retirer le verrou en entier",
+          "clearAllLocks": "Retirer tous les verrous",
           "lock": "Verrouiller"
         }
       },
@@ -292,7 +292,7 @@
       "move": {
         "success": "{{count}} élément a été déplacé dans {{dest}}",
         "success_plural": "{{count}} éléments ont été déplacés dans {{dest}}.",
-        "error_itemExists": "Un élément ne peut pas être déplacé car un élément avec le même nom système existe déjà.",
+        "error_itemExists": "Un élément ne peut pas être déplacé car un autre élément avec le même nom système existe déjà.",
         "error_itemExists_name": "{{name}} ne peut pas être déplacé car un élément avec le même nom système existe déjà.",
         "error": "L'élément ne peut pas être déplacé vers {{dest}}.",
         "error_plural": "Les éléments ne peuvent pas être déplacés vers {{dest}}.",
@@ -329,9 +329,9 @@
         "action": "Editeur d'images",
         "title": "Edition d'image",
         "resize": "Redimensionner",
-        "crop": "Recadrage",
+        "crop": "Recadrer",
         "rotate": "Pivoter",
-        "rotateInfo": "Pivotez l'image et sauvegardez la, ou sauvegardez la en tant que nouveau fichier",
+        "rotateInfo": "Faites pivoter l'image. Sauvergardez pour modifier l'image d'origine, ou sauvegardez en tant que nouveau fichier pour conserver l'image d'origine inchangée.",
         "rotateLeft": "Gauche",
         "rotateRight": "Droite",
         "width": "Largeur",
@@ -341,7 +341,7 @@
         "save": "Enregistrer",
         "unsavedChanges": "Modifications non sauvegardées",
         "resizeInfo": "Vous pouvez saisir vos propres valeurs",
-        "cropInfo": "Tapez la taille du recadrage",
+        "cropInfo": "Entrez la taille du recadrage",
         "tooltip": "Enregistrez ou annulez vos modifications avant d'effectuer d'autres opérations",
         "goBack": "Retour",
         "exitConfirmation": "Vous avez des modifications non enregistrées. Etes-vous sûr de vouloir quitter sans enregistrer ?",
@@ -358,7 +358,7 @@
         "editingMessage": "Vous éditez maintenant {{imageName}}",
         "savedMessage": "Enregistré",
         "ratioLocked": "Ratio bloqué",
-        "ratioUnlocked": "Ratio débloqué",
+        "ratioUnlocked": "Ratio libre",
         "confirmSaveDialog": {
           "title": "Remplacer le fichier existant",
           "text": "Un fichier avec ce nom existe déjà. Etes-vous sûr de vouloir continuer ?",
@@ -401,8 +401,8 @@
         "workInProgress": "Travail en cours"
       },
       "view": {
-        "flatList": "Liste",
-        "structuredView": "Structure"
+        "flatList": "Liste à plat",
+        "structuredView": "Vue structurée"
       },
       "contentTypeSelector": {
         "contents": "Contenus {{count}}",
@@ -427,7 +427,7 @@
           "text1-1": "Les éléments sont marqués pour suppression dans un premier temps. Cette opération va marquer pour suppression tous les sous-éléments, ce qui inclut les pages.",
           "text1-1-1": "A cette étape, il est encore possible d’annuler la suppression, afin que les éléments ne soient plus marqués pour suppression.",
           "text1-2": "Vous devez ensuite procéder à la suppression définitive :",
-          "text1-2-1": "Si les éléments ont été précédemment publiés, vous devez “publier la suppression”, afin que les éléments soient supprimés dans les versions en ligne et d’édition.",
+          "text1-2-1": "Si les éléments ont déjà été publiés, vous devez “publier la suppression”, afin que les éléments soient supprimés dans les versions en ligne et d’édition.",
           "text1-2-2": "Si les éléments n’ont jamais été publiés, dans ce cas vous devez utiliser l’option “Supprimer définitivement”.",
           "text1-2-3": "Ces opérations ne peuvent pas être annulées : les éléments ainsi supprimés ne peuvent pas être restaurés.",
           "text2": "La seconde étape du processus de suppression (la suppression définitive), ainsi que l’annulation de la suppression, doit être faite sur l’élément initialement marqué pour suppression. Vous ne pouvez pas marquer une page pour suppression, et ensuite supprimer définitivement uniquement un contenu de la page. Dans ce cas, vous devez annuler la suppression de la page, procéder à la suppression en deux étapes du contenu en question, et ensuite marquer de nouveau la page pour suppression.",
@@ -465,12 +465,12 @@
         "locked":{
           "permanently": {
             "title": "Impossible de supprimer",
-            "content": "L’élément <strong>{{name}}</strong> ne peut actuellement pas être supprimé seul. Merci d’annuler la suppression, ou de supprimer définitivement, son contenu parent <strong>{{parentName}}</strong>, qui est le contenu initialement marqué pour suppression. ",
+            "content": "L’élément <strong>{{name}}</strong> ne peut actuellement pas être supprimé seul. Merci d’annuler la suppression, ou de supprimer définitivement, son parent <strong>{{parentName}}</strong>, qui est le contenu initialement marqué pour suppression. ",
             "content_plural": "Il y a ${count} éléments <strong>{{name}}</strong> qui ne peuvent pas être supprimés. Veuillez restaurer, ou supprimer définitivement le contenu parent <strong>{{parentName}}</strong> qui est le contenu initialement marqué pour suppression."
           },
           "undelete": {
             "title": "Impossible d'annuler la suppression",
-            "content": "Il n’est actuellement pas possible d’annuler la seule suppression de l’élément <strong>{{name}}</strong>. Merci d’annuler la suppression de son contenu parent <strong>{{parentName}}</strong>, qui est le contenu initialement marqué pour suppression. ",
+            "content": "Il n’est pas possible d’annuler unitairement la suppression de l’élément <strong>{{name}}</strong>. Celle-ci est la conséquence de la demande de suppression de son parent <strong>{{parentName}}</strong>. Annulez la demande de suppression de <strong>{{parentName}}</strong>.",
             "content_plural": "Il y a ${count} éléments <strong>{{name}}</strong> qui ne peuvent pas être restaurés. Veuillez restaurer, ou supprimer définitivement le contenu parent <strong>{{parentName}}</strong> qui est le contenu initialement marqué pour suppression."
           }
         },
@@ -577,7 +577,7 @@
             "edit": {
               "title": "Modifications non sauvegardées",
               "message": "Vous avez des modifications non sauvegardées. Que souhaitez-vous faire avant de fermer?",
-              "switchLanguage": "Vous avez des modifications non sauvegardées. Que souhaitez-vous faire avant de changer de langue?"
+              "switchLanguage": "Vous avez des modifications non sauvegardées. Que souhaitez-vous faire avant de changer de langue ?"
             },
             "create": {
               "title": "Contenu non sauvegardé",
@@ -590,7 +590,7 @@
             "btnSave": "Sauvegarder"
           },
           "lock": {
-            "deletion": "Verrouillé: Contenu marqué pour suppression",
+            "deletion": "Verrouillé: contenu marqué pour suppression",
             "engine": "Verrouillé par {{userName}}",
             "user": "Verrouillé par {{userName}}",
             "validation": "Verrouiller par un workflow de publication",
@@ -625,10 +625,10 @@
             "checkboxSubLabel": "Le contenu peut être publié dans toutes les langues.",
             "clickHere": "Cliquez ici.",
             "dialogTitle": "Travail en cours (WIP)",
-            "dialogSubTitle": "Vous pouvez marquer le contenu comme travail en cours pour en empêcher sa publication. Pour en savoir plus sur l'option Marquer comme travail en cours, ",
+            "dialogSubTitle": "Vous pouvez marquer le contenu comme <i>Travail en cours</i> pour en empêcher sa publication. Pour en savoir plus sur l'option Marquer comme travail en cours, ",
             "label" : {
-              "mark": "Marquer comme travail en cours",
-              "unmark": "Ne pas marquer comme travail en cours"
+              "mark": "Marquer comme <i>Travail en cours</i>",
+              "unmark": "Ne pas marquer comme <i>Travail en cours</i>"
             },
             "localizedPropertiesOnly": "Propriétés internationalisées seulement",
             "localizedPropertiesOnlySubText": "Le contenu ne sera pas publiable dans les langues sélectionnées. Les propriétés communes à toutes les langues peuvent cependant faire partie d'une publication.",
@@ -657,9 +657,9 @@
             "replace": "Modifier",
             "newTab": "Editer dans un nouvel onglet",
             "clear": "Effacer",
-            "selectAll": "Sélectionnez toutes les valeurs",
+            "selectAll": "Sélectionner toutes les valeurs",
             "add": "Ajouter",
-            "previewTab": "Prévisualisé dans un nouvel onglet"
+            "previewTab": "Prévisualiser dans un nouvel onglet"
           },
           "contentPicker": {
             "notFoundContent": "Référence cassée",
@@ -689,7 +689,7 @@
         "errors": {
           "invalidDate": "La date est mal formatée",
           "invalidColor": "Veuillez fournir un code couleur valide",
-          "invalidPattern": "La valeur ne correspond pas aux contraintes définies dans le fichier de définition des types de contenu.",
+          "invalidPattern": "La valeur ne respecte pas les contraintes définies pour ce type de contenu (fichier de définition).",
           "invalidSystemName": "Le nom système ne peut contenir les caractères suivants ‘/:*?\"<>|%’",
           "required": "",
           "alreadyExist": "Il y a déjà un objet avec ce nom système, veuillez en choisir un autre",
@@ -719,7 +719,7 @@
       "error": {
         "queryingContent": "Erreur lors de l'interrogation du contenu: {{details}}",
         "changeSystemName": "Veuillez choisir un autre nom système",
-        "constraintViolations": "Il y a des erreurs de validation! Corrigez les entrées et sauvegarder à nouveau",
+        "constraintViolations": "Il y a des erreurs de validation! Corrigez les entrées et sauvegardez à nouveau",
         "accessDenied": "Certains contenus ne peuvent pas être affichés en raison des autorisations qui ont été appliquées",
         "cannotOpen": "Content Editor n’a pas pu être ouvert",
         "notFound": "Le contenu n’existe pas ou vous n’avez pas la permission de le voir"
@@ -732,14 +732,14 @@
           "details": "Détails",
           "off": "Désactivé"
         },
-        "updateOnSave": "L'aperçu sera mis à jour lors de l'enregistrement"
+        "updateOnSave": "L'aperçu sera mis à jour après enregistrement"
       },
       "CMMActions": {
         "createNewContent": {
           "menu": "Nouveau contenu",
           "newMenu": "Nouveau...",
           "contentOfType": "Nouveau : {{typeName}}",
-          "labelModal": "Sélectionner un type de contenu",
+          "labelModal": "Sélection du type de contenu",
           "btnDiscard": "ANNULER",
           "btnCreate": "CRÉER",
           "filterLabel": "Rechercher un type de contenu"
@@ -786,7 +786,7 @@
         "modified": "Modifié par {{userName}} le {{timestamp}}",
         "published": "Publié par {{userName}} le {{timestamp}}",
         "mandatoryLanguageUnpublishable": "Le contenu ne peut pas être publié dans la langue courante car une propriété obligatoire n'est pas renseignée.",
-        "mandatoryLanguageValid": "Le contenu ne sera visible en ligne qu'après publication dans toutes les langues obligatoires.",
+        "mandatoryLanguageValid": "Le contenu ne sera visible e ligne qu'après publication dans toutes les langues obligatoires.",
         "conflict": "Un contenu avec le même nom existe déjà en ligne et ne fera pas partie de cette publication",
         "unknown": "Statut de publication indisponible"
       },
@@ -832,7 +832,7 @@
           },
           "tabs": {
             "pages": "Pages",
-            "contentFolders": "Dossier de contenu"
+            "contentFolders": "Dossiers de contenu"
           }
         },
         "selectors": {
@@ -892,7 +892,7 @@
         },
         "multipleLeftRightSelector": {
           "displayValue": "Multiple list",
-          "description": "Sélectionner de nombreuses valeurs à partir d'une liste"
+          "description": "Sélectionner plusieurs valeurs à partir d'une liste"
         },
         "radioButton": {
           "displayValue": "Radio button",
